@@ -1,0 +1,55 @@
+iframe{
+  border:none;
+}
+
+#tutorial{
+  width:100px;
+  height:80%;
+  position:fixed;
+  top:85px;
+  left:-100px;
+  visibility:hidden;
+  transition:0.5s;
+  background:rgba(0,0,0,0.4);
+  box-shadow:2px 2px 9px black;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+}
+#tutorial:target,#example:target,#exercise:target{
+   left:0;
+  visibility: visible;
+}
+#exercise{
+  width:100px;
+  height:80%;
+  position:fixed;
+  top:85px;
+  left:-100px;
+  visibility:hidden;
+  transition:0.5s;
+  background:rgba(0,0,0,0.4);
+  box-shadow:2px 2px 9px black;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+}
+#example{
+  width:100px;
+  height:80%;
+  position:fixed;
+  top:85px;
+  left:-100px;
+  visibility:hidden;
+  transition:0.5s;
+  background:rgba(0,0,0,0.4);
+  box-shadow:2px 2px 9px black;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+}
+
+#math{
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+}

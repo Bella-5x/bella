@@ -1,0 +1,64 @@
+body{
+  background:black;
+  color:white;
+  
+}
+
+lable{
+  font-size:20px;
+  margin-left:3%;
+}
+input{
+  border-radius:20px;
+  border:1px solid grey;
+  text-indent: 10px;
+  height:25px;
+  width:50%;
+  margin:5px 0 5px 0;
+}
+select{
+  border-radius:20px;
+  border:1px solid grey;
+  text-indent: 10px;
+  height:30px;
+  margin:5px 0 5px 0;
+  width:50%;
+}
+#fname{
+  margin-top:10%;
+}
+#email{
+  margin-left: 35px;
+}
+#birth{
+  margin-left:10px;
+}
+#gender{
+  margin-left:25px;
+}
+#pass{
+  margin-left:5px;
+}
+p{
+  text-align:center;
+  
+}
+#login{
+  color:gold;
+}
+#submit{
+  width:70%;
+  height:1cm;
+  background:blue;
+  color:white;
+  margin-left:15%;
+  margin-top:20px;
+  font-size:30px;
+  border:none;
+  outline: none;
+  box-shadow:2px 2px 9px white;
+}
+#submit:active{
+  background:rgba(100,100,100,0.4);
+  box-shadow: 0 0 0;
+}

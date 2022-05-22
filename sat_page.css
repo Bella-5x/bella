@@ -1,0 +1,30 @@
+body{
+  margin-top:100px;
+}
+h1{
+  font-size:100px;
+  text-align:center;
+  margin-bottom:0px;
+}
+#head_para{
+  font-size:18px;
+  justify-content: center;
+  color:gold;
+}
+#head_div{
+  width:106%;
+  height:80px;
+  background:black;
+  margin:5px -10px 5px -10px;
+  padding:0;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+#head_cite{
+  color:blue;
+ font-size:20px;
+ display:flex;
+ justify-content: flex-end;
+ margin:5px 15px 0 0;
+}

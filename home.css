@@ -1,0 +1,28 @@
+body{
+  margin-top:80px;
+  margin-bottom:60px;
+}
+h1{
+  margin:0px;
+}
+#cruise{
+  font-size:30px;
+}
+#school{
+  margin:10px;
+  font-size:25px;
+}
+#head{
+  display:flex;
+  justify-content: center;
+  width:100%;
+  margin-bottom:60px;
+}
+.head_img{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+p{
+  white-space: large;
+}

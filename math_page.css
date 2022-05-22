@@ -1,0 +1,75 @@
+body{
+  margin-top:100px;
+}
+h1{
+  font-size:100px;
+  text-align:center;
+  margin-bottom:0px;
+}
+#head_para{
+  font-size:18px;
+  justify-content: center;
+  color:gold;
+}
+#head_div{
+  width:106%;
+  height:80px;
+  background:black;
+  margin:5px -10px 5px -10px;
+  padding:0;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+#head_cite{
+  color:blue;
+ font-size:20px;
+ display:flex;
+ justify-content: flex-end;
+ margin:5px 15px 0 0;
+}
+#insta{
+  font-size:60px;
+	background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+ background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+ background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color:transparent;
+}
+#insta:before {
+  display: inline;
+}
+#para{
+  
+/* Tutorial on https://fossheim.io/writing/posts/css-text-gradient. */
+}
+#para{
+  /* Fallback: Set a background color. */
+  background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, red, blue);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+#para{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: normal;
+  font-size: 6em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-bottom: -0.25em;
+}
+
